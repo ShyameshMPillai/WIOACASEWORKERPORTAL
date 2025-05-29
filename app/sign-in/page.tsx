@@ -105,7 +105,7 @@ export default function LoginPage() {
 
           <CardContent>
             {errors.form && (
-              <Alert variant="destructive" className="mb-4">
+              <Alert variant="destructive\" className="mb-4">
                 <AlertDescription>{errors.form}</AlertDescription>
               </Alert>
             )}
@@ -127,7 +127,7 @@ export default function LoginPage() {
                   required
                 />
                 {errors.email && (
-                  <p id="email-error" className="text-sm text-red-500" role="alert">
+                  <p id="email-error\" className="text-sm text-red-500\" role="alert">
                     {errors.email}
                   </p>
                 )}
@@ -169,9 +169,9 @@ export default function LoginPage() {
                     aria-label={showPassword ? "Hide password" : "Show password"}
                   >
                     {showPassword ? (
-                      <EyeOff className="h-5 w-5" aria-hidden="true" />
+                      <EyeOff className="h-5 w-5\" aria-hidden="true" />
                     ) : (
-                      <Eye className="h-5 w-5" aria-hidden="true" />
+                      <Eye className="h-5 w-5\" aria-hidden="true" />
                     )}
                   </button>
                 </div>
